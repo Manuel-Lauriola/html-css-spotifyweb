@@ -35,7 +35,7 @@
 
 .container-right {
   width: calc(100vw - 170px);
-  height: 100vh;
+  height: calc(100vh - 150px);
 }
 
 .container-content {
