@@ -5,22 +5,32 @@
 }
 
 .container-viewport {
-  height: calc(100vh - 350px);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.header {
+  height: 50px;
+}
+
+.footer {
+  height: 150px;
+}
+
+.container {
   width: 100%;
+  height: calc(100vh - 200px);
 }
-
-header {
-  height: 100px;
-}
-
-footer {
-  height: 250px;
-}
-
-.container {}
 
 .sidebar {
-  width: 18%;
+  width: 10%;
+  height: calc(100vh - 150px);
+}
+
+.container-content {
+  width: 90%;
+  height: calc(100vh - 150px);
 }
 
 .bg-blue {
@@ -33,4 +43,31 @@ footer {
 
 .bg-red {
   background-color: crimson;
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.bg-black-tr {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  border: white 2px solid;
+  border-radius: 20px;
+  padding: 5px 50px;
+  color: white;
+  background-color: transparent;
+  margin: 10px 5px 20px 0px;
 }
