@@ -4,24 +4,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Document</title>
 </head>
 
 <body>
 
-  <div class="container-viewport bg-red">
-    <div class="sidebar"><img class="logo" src="./assets/img/logo.svg" alt=""></div>
-    <div class="container-content">
-      <div class="header bg-black-tr text-align-right">
-        <button class="btn">Effettua l'upgrade</button>
+  <div class="container-viewport bg-blue">
+    <div class="sidebar grey bg-black"><img class="logo" src="./assets/img/logo.svg" alt="">
+      <div class="menu">
+        <div class="icons">
+          <ul>
+            <li><img src="./assets/img/home.svg" alt="Home"></li>
+            <li><img src="./assets/img/search.svg" alt="Cerca"></li>
+            <li><img src="./assets/img/libreria.svg" alt="libreria"></li>
+          </ul>
+        </div>
+        <div class="disappear">
+          <ul>
+            <li class="white">Home</li>
+            <li>Cerca</li>
+            <li>La tua libreria</li>
+          </ul>
+        </div>
+      </div>
+      <div class="playlist">
+        <h3 class="white">Playlist</h3>
+        <div class="align-items-center"><i class="fa-solid fa-square-plus fs3rem"></i><span> Crea playlist</span></div>
+        <ul>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+        </ul>
       </div>
 
-      <div class="container bg-orange"></div>
-
-      <div class="footer bg-gold"></div>
     </div>
+    <div class="container-right">
+      <div class="row display-column">
+        <div class="header bg-black-tr text-align-right">
+          <button class="btn">Effettua l'upgrade</button>
+        </div>
+        <div class="container-content bg-light-black"></div>
+
+      </div>
+    </div>
+    <div class="footer bg-gold"></div>
   </div>
+
 
 </body>
 
