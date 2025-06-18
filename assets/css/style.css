@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-viewport {
+  height: calc(100vh - 350px);
+  width: 100%;
+}
+
+header {
+  height: 100px;
+}
+
+footer {
+  height: 250px;
+}
+
+.container {}
+
+.sidebar {
+  width: 18%;
+}
+
+.bg-blue {
+  background-color: deepskyblue;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-red {
+  background-color: crimson;
+}
