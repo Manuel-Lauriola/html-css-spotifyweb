@@ -275,13 +275,20 @@
 .card .play {
   font-size: 50px;
   color: white;
-  padding: 32%;
   background-color: rgba(0, 0, 0, 0.5);
-  /* display: none; */
+  display: none;
   z-index: 10;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
-.card .play:hover {
-  display: block;
+.card:hover .play {
+  display: flex;
   cursor: pointer;
+}
+
+.border-radius-50 {
+  border-radius: 50%;
 }
