@@ -20,7 +20,7 @@
 }
 
 .footer {
-  height: 150px;
+  height: 80px;
   width: 100vw;
 }
 
@@ -30,12 +30,12 @@
 
 .sidebar {
   width: 170px;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 80px);
 }
 
 .container-right {
   width: calc(100vw - 170px);
-  height: calc(100vh - 150px);
+  height: calc(100vh - 80px);
 }
 
 .container-content {
@@ -66,8 +66,8 @@
   background-color: crimson;
 }
 
-.bg-gold {
-  background-color: gold;
+.bg-grey {
+  background-color: grey;
 }
 
 .bg-black-tr {
@@ -163,6 +163,25 @@
   list-style: none;
   margin-top: 10px;
   font-size: 0.8rem;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 50%;
+}
+
+.user i {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.user hr {
+  width: 80%;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: solid grey 1px;
 }
 
 /* content */
