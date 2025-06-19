@@ -41,6 +41,7 @@
 .container-content {
   width: calc(100vw - 170px);
   height: calc(100vh - 140px);
+  padding-left: 20px;
 }
 
 .row {
@@ -187,10 +188,7 @@
 
 /* content */
 
-.container-content h2,
-.container-content span {
-  margin-left: 20px;
-}
+
 
 .container-content span {
   font-size: 0.8rem;
@@ -215,7 +213,7 @@
 .album1,
 .album2,
 .album3 {
-  margin: 15px;
+  margin: 15px 0 15px 0;
 }
 
 .container-content span {
