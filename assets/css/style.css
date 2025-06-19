@@ -102,6 +102,27 @@
   flex-direction: column;
 }
 
+/* hoover */
+
+.container-content ul li:hover,
+.playlist ul li:hover,
+.icons ul li:hover,
+.disappear ul li:hover,
+.sidebar span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hoover-white:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.header .btn:hover {
+  padding: 10px 60px;
+  cursor: pointer;
+}
+
 .gap5 {
   gap: 5px;
 }
@@ -235,4 +256,31 @@
 
 .album3 img {
   border-radius: 50%;
+}
+
+.card {
+  position: relative;
+}
+
+.hover-play {}
+
+.position-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .play {
+  font-size: 50px;
+  color: black;
+  padding: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 10;
+}
+
+.card .play:hover {
+  display: block;
+  cursor: pointer;
 }
